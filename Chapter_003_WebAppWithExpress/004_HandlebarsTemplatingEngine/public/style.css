@@ -1,0 +1,15 @@
+li {
+    font-size: 2rem;
+    width: 300px;
+    margin: 40px;
+    padding: 4px;
+    list-style: none;
+}
+
+.front {
+    background-color: aquamarine;
+}
+
+.back {
+    background-color: coral;
+}

@@ -1,0 +1,17 @@
+<h2>List of my love Framework</h2>
+{{> lovedFrame}}
+
+<h2>List of my hate Framework</h2>
+{{> hatedFrame}}
+
+<h1>THE BEST ONE IS {{bestOne}}</h1>
+
+<h3>Our Home Member</h3>
+{{#if resExist}}
+<ul>
+    {{#each suggestion}}
+    <li class={{this.side}}>{{this.name}} <b>{{this.surname}}</b></li>
+    {{/each}}
+</ul>
+
+{{/if}}
