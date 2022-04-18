@@ -18,4 +18,4 @@ http.createServer( function(req, res){
     // Else situation
     res.writeHead(404);
     res.end(http.STATUS_CODES[404]);
-}).listen(1337);
+}).listen(process.env.PORT || 1337);
