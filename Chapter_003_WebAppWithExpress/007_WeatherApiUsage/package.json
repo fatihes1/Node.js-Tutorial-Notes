@@ -1,20 +1,17 @@
 {
-  "name": "006_handlebarswithapiusage",
+  "name": "007_weatherapiusage",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "start": "nodemon src/app.js",
+    "dev" : "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.26.1",
-    "dotenv": "^16.0.0",
     "express": "^4.17.3",
-    "hbs": "^4.2.0",
     "nodemon": "^2.0.15",
     "request": "^2.88.2"
   }
